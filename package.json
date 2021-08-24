@@ -1,0 +1,25 @@
+{
+  "name": "tdd-presentation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/entrypoint",
+    "test": "jest"
+  },
+  "author": "Flavio Brusamolin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}
